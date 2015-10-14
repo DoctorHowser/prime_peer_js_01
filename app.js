@@ -52,7 +52,7 @@ while(i > 0){  //this may need to be =>
 function careBears(val){
 	val = val.toString();
 	if (val.length > 1){
-		val = val.substring(1, val.length);
+		val = val.substring(1, val.length); //could also have used charAt(1), but not as dynamic.
 	}
 	return val;
 };
