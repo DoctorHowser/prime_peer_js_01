@@ -1,11 +1,16 @@
 var value = 42; //Step 1
+
 if (value >= 53) { //Step2
 	value += 42;
 } else {
 	value -= 13; //THIS (29)
 }
-	value += "11"; //(2911)
-var array = []; //Step 4
+
+//step 3
+value += "11"; //(2911)
+
+//Step 4
+var array = []; 
 for(var i = 0; i<value.length; i++) {
 	array[i] = value.charAt(i);
 }
@@ -34,25 +39,16 @@ if(value<60){
 	value = 27;
 } else{
 	value = 2;
-}
-
-//value === 27
-//fun ===19
+}  //value === 27 fun ===19
 
 //step 10
-
-
 i=10;
 while(i > 0){  //this may need to be =>
 	value++;
 	i--;
-}
-
-//value == 37
+}//value == 37 
 
 //step 11
-
-
 function careBears(val){
 	val = val.toString();
 	if (val.length > 1){
@@ -62,9 +58,7 @@ function careBears(val){
 };
 
 //step 12
-value = careBears(value);
-//value == 7
+value = careBears(value); //value == 7
 
 //step 13
-
 console.log(value);
